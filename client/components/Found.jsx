@@ -37,7 +37,7 @@ const Found = () => {
     return (
         <div>
             <div className="p-8 rounded-lg">
-                <h1 className="text-5xl font-roboto text-black mb-16 underline underline-offset-8">Bulunan Plakalar</h1>
+                <h1 className="text-5xl w-full font-roboto text-black mb-16 underline underline-offset-8">Bulunan Plakalar</h1>
 
                 <div className="flex flex-row gap-4 mt-8">
                     <input
@@ -60,7 +60,7 @@ const Found = () => {
                     </button>
                 </div>
                 <div className="flex flex-col gap-4 mt-1">
-                    <table className="flex flex-col  w-[75%]   overflow-x-auto  rounded-lg">
+                    <table className="flex flex-col lg:w-[75%] sm:w-[100%] xsm:w-[100%] md:w-[100%]   overflow-x-auto  rounded-lg">
                         <thead>
                             <tr className="bg-slate-700 flex flex-row items-center h-12 p-3">
                                 <th className="text-white  ml-16 mr-auto">Bulunan Plakalar</th>

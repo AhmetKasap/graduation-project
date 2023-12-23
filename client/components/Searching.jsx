@@ -116,7 +116,7 @@ const Searching = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 mt-8">
-                    <table className="flex flex-col  w-[75%]   overflow-x-auto  rounded-lg">
+                    <table className="flex flex-col  lg:w-[75%] sm:w-[100%] xsm:w-[100%] md:w-[100%] overflow-x-auto  rounded-lg">
                         <thead>
                             <tr className="bg-slate-700 flex flex-row items-center h-12 p-3 ">
                                 <th className="text-white  ml-16 mr-auto">Aranan Plakalar</th>

@@ -4,12 +4,9 @@ import Searching from "@/components/Searching";
 
 export default function Home() {
     return (
-        <div className="w-[80%] mx-auto flex flex-row gap-4 ">
-            <div className="basis-1/2 ml-24"> <Searching/></div>
-            <div className="basis-1/2"> <Found/></div>
-
-        
-
+        <div className="w-[80%] mx-auto grid md:grid-cols-1 lg:grid-cols-2 ">
+            <div className="mt-8"> <Searching/></div>
+            <div className="mt-8"> <Found/></div>
         </div>
     )
 }   

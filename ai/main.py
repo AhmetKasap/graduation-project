@@ -29,7 +29,7 @@ def getLocation () :
 def detection () : 
     
 
-    found_plaques = '63JKL63' # YOLO'nun bulduğu trafik plakası
+    found_plaques = '34JKL34' # YOLO'nun bulduğu trafik plakası
     found_location = getLocation()
 
 
