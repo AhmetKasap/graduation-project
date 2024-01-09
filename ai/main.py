@@ -29,11 +29,11 @@ def getLocation () :
 def detection () : 
     
 
-    found_plaques = '34JKL34' # YOLO'nun bulduğu trafik plakası
+    found_plaques = '34JKL34' # Bulunan trafik plakası
     found_location = getLocation()
 
 
-    for data in db_plaques : # YOLO'nun bulduğu trafik plakası, veri tabanında var mı ? var ise bu plakayı' ve konumunu car_location_db aktarıyoruz.
+    for data in db_plaques : # bulunan trafik plakası, veri tabanında var mı ? var ise bu plakayı' ve konumunu car_location_db aktarıyoruz.
         print(data["foundLocation"])
         print(data["plaqueName"])
         if(data["plaqueName"] == found_plaques) : 
